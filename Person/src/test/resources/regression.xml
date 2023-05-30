@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression testing of the person ">
+
+    <test name="Person features Regression">
+        <classes>
+            <class name="person.PersonTests"/>
+        </classes>
+    </test>
+
+    <test name="Getters and Setters features Regression">
+        <classes>
+            <class name="person.GettersSettersTest"/>
+        </classes>
+    </test>
+</suite>
